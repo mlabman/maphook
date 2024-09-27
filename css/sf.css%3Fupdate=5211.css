@@ -1,0 +1,295 @@
+  BODY, A, TD, DIV, SPAN
+    {
+        font-family: Arial, Verdana, Helvetica, sans-serif;
+		margin: 0px;
+    }
+    .caption
+    {
+        font-family: Arial, Verdana, Helvetica, sans-serif;
+        font-size:10px;
+        font-weight:bold;
+    }
+
+     .content
+     {
+         margin: 2px 5px 5px 5px;
+        font-family: arial, helvetica, verdana, sans-serif;
+	    color: #303030;
+	    font-size: 11px;
+	    font-weight:bold;
+	    line-height:13px;
+	    overflow:hidden;
+
+    }
+
+    .caption {
+		FONT-FAMILY: arial, helvetica, verdana, sans-serif;
+		COLOR: #797979;
+		font-size: 11px;
+		font-weight:bold;
+    }
+
+    .author
+    {
+        font-weight:normal;
+    }
+
+
+    .date
+    {
+        color: #636363;
+        font-weight:normal;
+        font-style:italic;
+    }
+
+    A.link
+    {
+       font-family: Arial, Verdana, Helvetica, sans-serif;
+        font-size:10px;
+    }
+
+
+    .title
+    {
+        color: #652D90;
+        font-size:14px;
+        font-family: Arial, Verdana, Helvetica, sans-serif;
+        font-weight:bold;
+    }
+    A
+    {
+        text-decoration:none;
+    }
+    A:hover
+    {
+        text-decoration:underline;
+    }
+    .overall
+    {
+        height:150px;
+        width:150px;
+        overflow:hidden;
+
+
+
+    }
+	
+	
+
+	.grid_1
+	{
+		display:inline;
+		float: left;
+		position: relative;
+		margin-left: 5px;
+		margin-right: 3px;
+		padding-top: 4px;
+		/*margin-left: 1px;*/
+
+		border: 0px solid black;
+
+		text-align: left;
+		cursor: pointer;
+
+
+
+	}
+
+	.bcaption
+	{
+		font-size: 12px;
+		font-weight: bold;
+
+		font-family: Verdana, Sans Serif, Arial;
+		letter-spacing:0px;
+
+
+}
+.popbubble {
+	padding-bottom: 20px;
+}
+
+.poptext {
+	  			border: 0px solid green;
+				
+
+				text-shadow: none !important;
+
+	  			color: black;
+	  			font: 1.1em/1.1em Helvetica Neue, Helvetica, arial;
+				
+	  			/*padding: 3px 25px 3px 15px;*/
+
+	  			letter-spacing: 0px;
+	  			cursor: pointer;
+				margin-bottom: 10px;
+				/*padding-right: 30px;*/
+				vertical-align: top;
+	  			/*overflow: hidden;*/
+      }
+
+.popdetail {
+	
+	vertical-align: top;	
+	color: black;
+	/*font-family: Helvetica Neue, Helvetica, arial;
+	font-size: 13px;*/
+	/*font: .8em/.4em Helvetica Neue, Helvetica, arial !important;*/
+
+}
+	  
+.popcontainer
+{
+	border: 0px solid green;
+	/*min-width: 350px;*/
+	/*min-height: 250px;*/
+	max-width: 350px;
+	padding: 5px 18px 12px 10px;
+
+
+}
+
+.poptitle
+{
+	color:white;
+	letter-spacing: 1px;
+	/*text-shadow: 0 -1px 0 #fff;*/
+	/*line-height: 25px;*/
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.poptitledark
+{
+	color:black;
+	letter-spacing: 0px;
+	/*text-shadow: 0 -1px 0 #fff;*/
+	line-height: 16px;
+	font-size: 16px !important;
+	margin-bottom: 8px; 
+	font-weight: bold;
+}
+.photo-source-div {
+	width: 320px;
+}
+.photo-source {
+	color: gray !important;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+ { 
+ #loginarea { display: none;}
+ /*.popimg { max-width: 90px !important; }*/
+ }
+ 
+ @media only screen 
+and (min-width : 240px) 
+and (max-width : 500px)
+ { 
+ #loginarea { display: none;}
+ .popimg { max-width: 120px !important; }
+ /*.photo-source-div  {
+	max-width: 250px !important;
+	}*/
+ /*.poptext { 
+	margin-right: 50px;
+	}*/
+ }
+
+
+
+.degree {
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	white-space: normal !important;
+	line-height: 18px;
+}
+
+a.poptitledark {
+	color: #FF6702; !important;
+}
+
+a.poptitledark:hover {
+	color: #FF6702;
+	text-decoration: underline;
+}
+
+
+a.truncated-link {
+	font-size: 11px;
+	color: #c60c30 !important;
+}
+
+a.truncated-link:hover {
+	color: #d60c30;
+	text-decoration: underline;
+}
+	
+.popimg
+{
+padding:  5px 0px 10px 10px;
+}
+
+.openlayers-map img{ margin:0px }
+
+.legend {	
+	width: 910px;
+	text-align: right;
+	margin: 10px 0 10px 0;
+	}
+.legend SPAN {
+	padding-left: 32px;
+	padding-right: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-family: Helvetica Neue, Helvetica, arial;
+	font-size: 13px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: 4px;
+	background-size: contain;
+}
+.divider {
+	border-left: 2px solid silver;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	height: 30px;
+	width: 5px !important;
+}
+.legend SPAN:first-child {
+	border-left: 0px !important;
+}
+.legend SPAN > img {
+	padding-right: 5px;
+}
+
+#mapcontain {
+	position: relative;
+	width: 100%;
+}
+
+
+#poweredby {
+	background-image: url(http://maphook.com/css/images/mh_powered_by_right-100.png);
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 41px;
+	position: absolute;
+	bottom: 40px;
+	right: 5px;
+	z-index: 9000;
+	cursor: pointer;
+}
+
+.top-pad {
+	padding-top: 8px;
+}
+/*
+.fancybox-wrap {
+	top: 15 !important;
+}*/
